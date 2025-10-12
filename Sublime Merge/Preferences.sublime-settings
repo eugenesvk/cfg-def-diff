@@ -19,6 +19,8 @@
 	// in your User File Preferences.
 	"font_face": "",
 	"font_size": 10,
+	// The font size set when using "Reset Size"
+	"default_font_size": 10,
 
 	// Valid options on all platforms are:
 	//  - "no_bold": Disables bold text
@@ -655,6 +657,9 @@
 	// Display the toggle sidebar button in the status bar
 	"show_sidebar_button": true,
 
+	// Move the sidebar on the right side
+	"sidebar_on_right": false,
+
 	// Display the git status in the status bar, requires the show_git_status
 	// setting to be enabled
 	"show_git_status_in_status_bar": true,
@@ -747,6 +752,9 @@
 	// modified. If a file has unsaved changes, a prompt will always be shown.
 	// Will only show if "reload_file_on_change" is true.
 	"always_prompt_for_file_reload": false,
+
+	// Whether to reload files when Sublime Text is not in focus.
+	"reload_file_in_background": false,
 
 	// When reopening Sublime Text close saved files that have been deleted from
 	// the filesystem (Unsaved files will not be closed). If this setting is
