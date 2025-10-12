@@ -2754,6 +2754,11 @@
 			"layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
 		},
 		{
+			"class": "sidebar_button_control",
+			"settings": ["sidebar_on_right"],
+			"layer0.texture": "Theme - Default/common/sidebar_button_right.png",
+		},
+		{
 			"class": "status_container",
 			"content_margin": [8, 0, 0, 0]
 		},
