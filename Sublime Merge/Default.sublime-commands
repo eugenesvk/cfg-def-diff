@@ -9,6 +9,10 @@
 		"caption": "Create Branch…",
 		"command": "create_branch",
 	},
+		{
+		"caption": "Create Branch from Tag…",
+		"command": "create_branch_from_tag",
+	},
 	{
 		"caption": "Create Branch from Remote Branch…",
 		"command": "checkout_branch",
@@ -149,6 +153,10 @@
 	{
 		"caption": "Delete All Untracked Files…\tgit clean -fd",
 		"command": "clean_working_dir",
+	},
+	{
+		"caption": "LFS: Edit Tracked Pattern…",
+		"command": "lfs_edit_pattern",
 	},
 	{
 		"caption": "Apply Patch…",
