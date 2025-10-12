@@ -1,0 +1,24 @@
+%YAML 1.2
+---
+scope: source.sublime-merge.locations.filter
+contexts:
+  main:
+    - match: '"'
+      scope: punctuation.definition.string.begin.filter
+      push: double_quoted_string
+
+    - match: '\b(and|or|not|after|before)\b'
+      scope: keyword.operator.logical.filter
+
+    - match: '\('
+      scope: punctuation.section.brackets.begin.filter
+    - match: '\)'
+      scope: punctuation.section.brackets.end.filter
+
+  double_quoted_string:
+    - meta_scope: string.quoted.double.filter
+    - match: '\\.'
+      scope: constant.character.escape.filter
+    - match: '"'
+      scope: punctuation.definition.string.end.filter
+      pop: true
