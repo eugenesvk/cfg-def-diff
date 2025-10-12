@@ -19,7 +19,7 @@
 	{ "keys": ["escape"], "command": "toggle_files_filter", "context": [ { "key": "control", "operand": "skyline_text_control filter_input files_filter" }] },
 	{ "keys": ["escape"], "command": "exit_blame", "context": [{ "key": "blame_mode" }] },
 	{ "keys": ["escape"], "command": "exit_tree_mode", "context": [{ "key": "tree_mode" }] },
-	{ "keys": ["escape"], "command": "toggle_search", "context": [{ "key": "search_mode" }] },
+	{ "keys": ["escape"], "command": "exit_search", "context": [{ "key": "search_mode" }] },
 	{ "keys": ["escape"], "command": "hide_command_status", "context": [{ "key": "command_status_visible" }] },
 	{ "keys": ["escape"], "command": "close_preferences", "context": [{ "key": "preferences" }] },
 	{ "keys": ["escape"], "command": "toggle_console", "context": [{ "key": "console_visible" }] },
@@ -79,6 +79,7 @@
 	{ "keys": ["ctrl+1"], "command": "select_sidebar_tab", "args": {"tab": 1} },
 	{ "keys": ["ctrl+2"], "command": "select_sidebar_tab", "args": {"tab": 2} },
 	{ "keys": ["ctrl+3"], "command": "select_sidebar_tab", "args": {"tab": 3} },
+	{ "keys": ["ctrl+4"], "command": "select_commit_details" },
 
 	{ "keys": ["alt+left"], "command": "navigate_back" },
 	{ "keys": ["alt+right"], "command": "navigate_forward" },
