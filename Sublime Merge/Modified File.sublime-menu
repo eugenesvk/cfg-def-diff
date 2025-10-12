@@ -9,7 +9,7 @@
 	},
 	{
 		"command": "lfs_track_file",
-		"args": { "path": "$path" },
+		"args": { "pattern": "$path" },
 	},
 	{
 		"command": "create_patch",

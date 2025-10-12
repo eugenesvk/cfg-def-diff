@@ -223,6 +223,9 @@
 							"tab": 3,
 						},
 					},
+					{
+						"command": "select_commit_details",
+					},
 					{ "caption": "-" },
 					{
 						"caption": "Next File Tab",
@@ -413,6 +416,7 @@
 			{ "command": "update_check", "caption": "Check for Updates…" },
 			{ "command": "generate_debug_info", "caption": "Debug Information" },
 			{ "command": "show_changelog", "caption": "Changelog…" },
+			{ "command": "show_attribution", "caption": "Licenses and Attribution…" },
 			{ "command": "show_about_window", "caption": "About Sublime Merge", "mnemonic": "A" },
 		]
 	}
