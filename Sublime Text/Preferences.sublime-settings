@@ -268,6 +268,7 @@
 "hide_tab_scrolling_buttons"    	: false    	,// Hides the buttons for scrolling tabs left/right, requiring use of a trackpad or mouse scroll wheel
 "hide_new_tab_button"           	: false    	,// Hides the new tab button
 "show_sidebar_button"           	: true     	,// Display the toggle sidebar button in the status bar
+"sidebar_on_right"              	: false    	,// Move the sidebar on the right side
 "show_git_status_in_status_bar" 	: true     	,// Display the git status in the status bar, requires the show_git_status setting to be enabled
 "show_encoding"                 	: false    	,// Display file encoding in the status bar
 "show_line_endings"             	: false    	,// Display line endings in the status bar
@@ -298,6 +299,7 @@
 "shell_environment"            	: true    	,// Mac only. If the user's default shell should be invoked to obtain the user's customized environment variables. May be a boolean, or a string of the path the shell to invoke. Sublime Text must be restarted for this to take effect.
 "reload_file_on_change"        	: true    	,// Whether to reload a file if it has changed on disk.
 "always_prompt_for_file_reload"	: false   	,// Always prompt before reloading a file, even if the file hasn't been modified. If a file has unsaved changes, a prompt will always be shown. Will only show if "reload_file_on_change" is true.
+"reload_file_in_background"    	: false   	,// Whether to reload files when Sublime Text is not in focus
 
 // When reopening Sublime Text close saved files that have been deleted from the filesystem (Unsaved files will not be closed). If this setting is false no files will be closed, instead they will be restored as empty files.
 //
