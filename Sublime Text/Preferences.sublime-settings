@@ -587,6 +587,11 @@
 	"light_theme": "Default.sublime-theme",
 	"dark_theme": "Default Dark.sublime-theme",
 
+	// The file icon theme controls which icons are used for files in the
+	// side-bar. This can either be a single or multiple file icon themes.
+	// Sublime Text does not come with any file icon themes.
+	"file_icon_theme": [],
+
 	// Adaptive theme only: controls if a custom or default title bar is used.
 	// Note that on Windows, the hamburger menu is used whenever this is
 	// enabled and the adaptive theme is in use.
@@ -930,6 +935,9 @@
 	// filesystems like NFS and SSHFS. The default and minimum is 2. This
 	// requires a restart to take effect.
 	"io_workers": 2,
+
+	// Determines whether the old 3.3 plugin host is enabled or not.
+	"disable_plugin_host_3.3": true,
 
 	// List any packages to ignore here. When removing entries from this list,
 	// a restart may be required if the package contains plugins.
