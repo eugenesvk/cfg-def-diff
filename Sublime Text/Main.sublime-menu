@@ -293,7 +293,7 @@
 				"id": "wrap",
 				"children":
 				[
-					{ "command": "wrap_lines", "caption": "Wrap Paragraph at Ruler" },
+					{ "command": "wrap_lines", "caption": "Wrap Paragraph" },
 					{ "command": "wrap_lines", "args": {"width": 70}, "caption": "Wrap paragraph at 70 characters" },
 					{ "command": "wrap_lines", "args": {"width": 72}, "caption": "Wrap paragraph at 72 characters" },
 					{ "command": "wrap_lines", "args": {"width": 78}, "caption": "Wrap paragraph at 78 characters" },
@@ -849,6 +849,7 @@
 				]
 			},
 			{ "command": "install_package_control", "caption": "Install Package Control…" },
+			{ "command": "enable_package_control", "caption": "Enable Package Control" },
 			{ "caption": "-", "id": "end" }
 		]
 	},
