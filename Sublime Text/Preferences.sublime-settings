@@ -637,6 +637,14 @@
 	// window. Valid values are "system", "preferred" and "disabled".
 	"native_tabs": "system",
 
+	// Mac only. Controls whether clicks on a non-focused windows are passed
+	// through to the window.
+	// - "always" will click-through on all elements.
+	// - "never" will never click-through. Clicking will only focus the window.
+	// - "native" follows platform conventions, buttons are clicked-through
+	//   but text selection isn't.
+	"click_through": "always",
+
 	// Whether new tabs should favor opening after the current tab or at the end
 	// of the list of tabs.
 	"open_tabs_after_current": true,
@@ -831,6 +839,15 @@
 	// integrations.
 	"sublime_merge_path": "",
 
+	// Shell command used to open a terminal emulator at a specified location.
+	// If left empty Sublime Text will attempt to open the default terminal
+	// emulator. The associated menu items can be disabled by setting this to
+	// null.
+	// Examples:
+	// - "git-bash.exe --cd=\"$dir\""
+	// - "alacritty --working-directory \"$dir\""
+	"terminal_command": "",
+
 	// Preview file contents when clicking on a file in the sidebar. Double
 	// clicking or editing the preview will open the file and assign it a tab.
 	// - true: Always preview on click, including right click
@@ -907,6 +924,12 @@
 	// relative_line_numbers will draw each line number as the distance from
 	// the current line. Useful in conjunction with Vintage.
 	"relative_line_numbers": false,
+
+	// Set the number of threads to use for background file operations.
+	// Increasing this can result in faster folder loading when using networked
+	// filesystems like NFS and SSHFS. The default and minimum is 2. This
+	// requires a restart to take effect.
+	"io_workers": 2,
 
 	// List any packages to ignore here. When removing entries from this list,
 	// a restart may be required if the package contains plugins.
