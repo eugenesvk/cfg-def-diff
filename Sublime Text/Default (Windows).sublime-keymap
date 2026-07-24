@@ -22,21 +22,10 @@
 
 	{ "keys": ["backspace"], "command": "left_delete" },
 	{ "keys": ["shift+backspace"], "command": "left_delete" },
-	{ "keys": ["ctrl+shift+backspace"], "command": "left_delete" },
 	{ "keys": ["delete"], "command": "right_delete" },
 	{ "keys": ["enter"], "command": "insert", "args": {"characters": "\n"} },
-	{ "keys": ["enter"], "command": "select", "context":
-		[
-			{ "key": "overlay_has_focus", "operator": "equal", "operand": true }
-		]
-	},
 	{ "keys": ["shift+enter"], "command": "insert", "args": {"characters": "\n"} },
 	{ "keys": ["keypad_enter"], "command": "insert", "args": {"characters": "\n"} },
-	{ "keys": ["keypad_enter"], "command": "select", "context":
-		[
-			{ "key": "overlay_has_focus", "operator": "equal", "operand": true }
-		]
-	},
 	{ "keys": ["shift+keypad_enter"], "command": "insert", "args": {"characters": "\n"} },
 
 	{ "keys": ["ctrl+enter"], "command": "select", "args": { "extend": true, "clear_to_right": true }, "context":
